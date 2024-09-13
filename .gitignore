@@ -1,0 +1,23 @@
+# all hidden
+.*
+
+# hidden exceptions
+!.gitignore
+!.env.example
+!.eslintrc.js
+!.nycrc.json
+!/.husky
+!/.github
+!/.vscode
+!/.dockerignore
+# generated
+/node_modules
+/dist
+/coverage
+/logs
+/vendor
+
+*.log
+*.pyc
+
+gha-creds-*.json

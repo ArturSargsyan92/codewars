@@ -1,0 +1,24 @@
+{
+    "name": "codewars",
+    "version": "1.0.0",
+    "description": "",
+    "main": ".ts",
+    "scripts": {
+        "lint": "eslint \"{src,test}/**/*.ts\"",
+        "lint:fix": "eslint \"{src,test}/**/*.ts\" --fix"
+    },
+    "keywords": [],
+    "author": "Arthur Sargsyan",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.7.6",
+        "@typescript-eslint/eslint-plugin": "^6.7.2",
+        "eslint": "^8.22.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-airbnb-typescript": "^17.0.0",
+        "ts-node": "^10.9.1"
+    },
+    "dependencies": {
+        "joi": "^17.13.1"
+    }
+}
